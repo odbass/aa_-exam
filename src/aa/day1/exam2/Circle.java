@@ -7,17 +7,15 @@ public class Circle extends Ellipse {
 	}
 
 	public void stretchX(int x) {
-		stretchX(x);
-		stretchY(x);
+		stretch(x);
 	}
 
 	public void stretchY(int y) {
-		stretchX(y);
-		stretchY(y);
+		stretch(y);
 	}
 	
 	public void stretch(int r) {
-		stretchX(r);
-		stretchY(r);
+		super.stretchX(r);
+		super.stretchY(r);
 	}
 }

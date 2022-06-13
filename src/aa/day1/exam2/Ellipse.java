@@ -14,7 +14,7 @@ public class Ellipse {
 		this.x += x;
 	}
 	
-	public void extendHeight(int y) {
+	public void stretchY(int y) {
 		this.y += y;
 	}
 	
